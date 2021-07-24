@@ -21,9 +21,6 @@ public class MapperService {
 	public StudentEntity dtoToEntity(StudentDto studentDto) {
 		StudentEntity studentEntity = modelMapper.map(studentDto, StudentEntity.class);
 		return studentEntity;
-	}
-	
-	
-	
+	}	
 	
 }

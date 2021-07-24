@@ -59,8 +59,7 @@ public class Response {
 
 	public void setPath(String path) {
 		this.path = path;
-	}
-		
+	}	
 	
 	
 }
