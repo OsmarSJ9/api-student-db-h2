@@ -23,11 +23,4 @@ public @interface AgeValidation {
 
     long value();
 
-    @Target({ ElementType.FIELD })
-    @Retention(RetentionPolicy.RUNTIME)
-    @Documented
-    @interface List {
-    	AgeValidation[] value();
-    }
-
 }
